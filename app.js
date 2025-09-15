@@ -1,7 +1,7 @@
 let dogumyılı = prompt("doğum yılınızı giriniz:");
 let şuankiyıl = prompt("şu anki yılı giriniz:");
 if (dogumyılı - şuankiyıl ) {
-    alert(dogumyılı - şuankiyıl);
+    alert("yaşınız:" + (dogumyılı - şuankiyıl));
 }
 //! kilo hesaplama
 let kilo = Number (prompt("kilonuzu giriniz:"));
